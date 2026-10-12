@@ -1,0 +1,14 @@
+command_id: DADB.DB.229245
+test_cases:
+- expected_values:
+    SCENIC_E_DISCHG: 199.348
+  response: 18DAF1DB0762924500030AB4
+- expected_values:
+    SCENIC_E_DISCHG: 200.2
+  response: 18DAF1DB0762924500030E08
+- expected_values:
+    SCENIC_E_DISCHG: 243.193
+  response: 18DAF1DB076292450003B5F9
+- expected_values:
+    SCENIC_E_DISCHG: 243.219
+  response: 18DAF1DB076292450003B613

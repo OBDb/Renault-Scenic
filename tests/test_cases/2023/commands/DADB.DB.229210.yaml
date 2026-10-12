@@ -1,0 +1,8 @@
+command_id: DADB.DB.229210
+test_cases:
+- expected_values:
+    SCENIC_CYCLES: 4
+  response: 18DAF1DB056292100004
+- expected_values:
+    SCENIC_CYCLES: 5
+  response: 18DAF1DB056292100005

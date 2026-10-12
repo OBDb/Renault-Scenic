@@ -1,0 +1,8 @@
+command_id: DADB.DB.229243
+test_cases:
+- expected_values:
+    SCENIC_E_CHG: 144.173
+  response: 18DAF1DB076292430002332D
+- expected_values:
+    SCENIC_E_CHG: 176.124
+  response: 18DAF1DB076292430002AFFC

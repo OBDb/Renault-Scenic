@@ -1,0 +1,5 @@
+command_id: 745.765.226301
+test_cases:
+- expected_values:
+    SCENIC_TP_FR_STATUS: 3
+  response: '7650462630103'

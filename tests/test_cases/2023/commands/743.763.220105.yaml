@@ -1,0 +1,5 @@
+command_id: 743.763.220105
+test_cases:
+- expected_values:
+    SCENIC_E_CONS_MEASUREMENT: 1
+  response: '7630462010501'

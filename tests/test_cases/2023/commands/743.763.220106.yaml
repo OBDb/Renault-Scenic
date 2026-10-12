@@ -1,0 +1,5 @@
+command_id: 743.763.220106
+test_cases:
+- expected_values:
+    SCENIC_E_ADAC_DISPLAY_TYPE: 2
+  response: '7630462010602'

@@ -1,0 +1,11 @@
+command_id: 744.764.22400A
+test_cases:
+- expected_values:
+    SCENIC_EVAP_T: 2.9
+  response: 7640562400A01AD
+- expected_values:
+    SCENIC_EVAP_T: 9.9
+  response: 7640562400A01F3
+- expected_values:
+    SCENIC_EVAP_T: 13.8
+  response: 7640562400A021A

@@ -1,0 +1,8 @@
+command_id: DADB.DB.229053
+test_cases:
+- expected_values:
+    SCENIC_CELL_V50: 3.7793
+  response: 18DAF1DB056290530F1E
+- expected_values:
+    SCENIC_CELL_V50: 3.93359
+  response: 18DAF1DB056290530FBC

@@ -1,0 +1,32 @@
+command_id: 744.764.224368
+test_cases:
+- expected_values:
+    SCENIC_EVAP_T_SET: 3.5
+  response: 7640562436801B3
+- expected_values:
+    SCENIC_EVAP_T_SET: 4.4
+  response: 7640562436801BC
+- expected_values:
+    SCENIC_EVAP_T_SET: 5.3
+  response: 7640562436801C5
+- expected_values:
+    SCENIC_EVAP_T_SET: 5.9
+  response: 7640562436801CB
+- expected_values:
+    SCENIC_EVAP_T_SET: 6.2
+  response: 7640562436801CE
+- expected_values:
+    SCENIC_EVAP_T_SET: 6.5
+  response: 7640562436801D1
+- expected_values:
+    SCENIC_EVAP_T_SET: 6.7
+  response: 7640562436801D3
+- expected_values:
+    SCENIC_EVAP_T_SET: 6.9
+  response: 7640562436801D5
+- expected_values:
+    SCENIC_EVAP_T_SET: 7
+  response: 7640562436801D6
+- expected_values:
+    SCENIC_EVAP_T_SET: 7.1
+  response: 7640562436801D7

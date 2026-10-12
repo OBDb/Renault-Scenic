@@ -1,0 +1,5 @@
+command_id: 744.764.2243A5
+test_cases:
+- expected_values:
+    SCENIC_COND_T_SET: -40
+  response: 764056243A50000

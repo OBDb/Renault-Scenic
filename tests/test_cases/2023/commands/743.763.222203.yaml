@@ -1,0 +1,5 @@
+command_id: 743.763.222203
+test_cases:
+- expected_values:
+    SCENIC_E_FLI_DISPLAYED: 0
+  response: '763056222030000'

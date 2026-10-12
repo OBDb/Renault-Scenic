@@ -1,0 +1,5 @@
+command_id: 744.764.22440D
+test_cases:
+- expected_values:
+    SCENIC_COMP_SUC_T: 10
+  response: 7640562440D0050

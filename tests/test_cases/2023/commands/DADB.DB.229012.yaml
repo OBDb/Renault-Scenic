@@ -1,0 +1,17 @@
+command_id: DADB.DB.229012
+test_cases:
+- expected_values:
+    SCENIC_HV_T: 14
+  response: 18DAF1DB056290120360
+- expected_values:
+    SCENIC_HV_T: 14.0625
+  response: 18DAF1DB056290120361
+- expected_values:
+    SCENIC_HV_T: 21.9375
+  response: 18DAF1DB0562901203DF
+- expected_values:
+    SCENIC_HV_T: 22
+  response: 18DAF1DB0562901203E0
+- expected_values:
+    SCENIC_HV_T: 22.0625
+  response: 18DAF1DB0562901203E1

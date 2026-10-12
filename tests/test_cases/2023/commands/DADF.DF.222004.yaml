@@ -1,0 +1,14 @@
+command_id: DADF.DF.222004
+test_cases:
+- expected_values:
+    SCENIC_INV_HV_V: 8.84375
+  response: 18DAF1DF05622004011B
+- expected_values:
+    SCENIC_INV_HV_V: 376.09375
+  response: 18DAF1DF056220042F03
+- expected_values:
+    SCENIC_INV_HV_V: 383.8125
+  response: 18DAF1DF056220042FFA
+- expected_values:
+    SCENIC_INV_HV_V: 385.28125
+  response: 18DAF1DF056220043029

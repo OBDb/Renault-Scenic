@@ -1,0 +1,14 @@
+command_id: DADB.DB.2291C8
+test_cases:
+- expected_values:
+    SCENIC_HV_E_AVAIL: 61.076
+  response: 18DAF1DB066291C800EE94
+- expected_values:
+    SCENIC_HV_E_AVAIL: 61.189
+  response: 18DAF1DB066291C800EF05
+- expected_values:
+    SCENIC_HV_E_AVAIL: 62.354
+  response: 18DAF1DB066291C800F392
+- expected_values:
+    SCENIC_HV_E_AVAIL: 62.458
+  response: 18DAF1DB066291C800F3FA

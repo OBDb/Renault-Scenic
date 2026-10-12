@@ -1,0 +1,5 @@
+command_id: 743.763.220204
+test_cases:
+- expected_values:
+    SCENIC_E_OIL_SERVICE_INTERVAL: 0
+  response: '763056202040000'

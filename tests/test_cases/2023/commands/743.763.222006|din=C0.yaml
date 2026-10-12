@@ -1,0 +1,5 @@
+command_id: 743.763.222006|din=C0
+test_cases:
+- expected_values:
+    SCENIC_BAT_V: 0
+  response: '763056220060000'

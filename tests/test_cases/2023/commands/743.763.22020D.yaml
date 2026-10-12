@@ -1,0 +1,5 @@
+command_id: 743.763.22020D
+test_cases:
+- expected_values:
+    SCENIC_E_MAINTENANCE_AUTONOMY_CURRENT_KM: 223.68932
+  response: 7630562020D0168

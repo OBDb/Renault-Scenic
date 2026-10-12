@@ -1,0 +1,5 @@
+command_id: 743.763.22020E
+test_cases:
+- expected_values:
+    SCENIC_E_MAINTENANCE_AUTONOMY_CURRENT_DAYS: 0
+  response: '7630562020E0000'

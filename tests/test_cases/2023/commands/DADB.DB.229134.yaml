@@ -1,0 +1,11 @@
+command_id: DADB.DB.229134
+test_cases:
+- expected_values:
+    SCENIC_PACK_T4: 0
+  response: 18DAF1DB056291340280
+- expected_values:
+    SCENIC_PACK_T4: 14
+  response: 18DAF1DB056291340360
+- expected_values:
+    SCENIC_PACK_T4: 22
+  response: 18DAF1DB0562913403E0
