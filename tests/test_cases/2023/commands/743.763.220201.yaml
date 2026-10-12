@@ -1,0 +1,5 @@
+command_id: 743.763.220201
+test_cases:
+- expected_values:
+    SCENIC_E_OIL_CHANGE_INTERVAL_KM: 0
+  response: '763056202010000'

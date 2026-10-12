@@ -1,0 +1,8 @@
+command_id: DADA.DA.223042
+test_cases:
+- expected_values:
+    SCENIC_HV_A_3042_RAW: 177
+  response: 18DAF1DA0562304200B1
+- expected_values:
+    SCENIC_HV_A_3042_RAW: 178
+  response: 18DAF1DA0562304200B2

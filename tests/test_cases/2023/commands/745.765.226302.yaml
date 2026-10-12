@@ -1,0 +1,5 @@
+command_id: 745.765.226302
+test_cases:
+- expected_values:
+    SCENIC_TP_RL_STATUS: 0
+  response: '7650462630200'

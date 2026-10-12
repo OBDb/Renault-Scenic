@@ -1,0 +1,17 @@
+command_id: '743.220207'
+test_cases:
+- expected_values:
+    SCENIC_E_ODO_KM: 96310
+  response: '76306620207017836'
+- expected_values:
+    SCENIC_E_ODO_KM: 96314
+  response: 7630662020701783A
+- expected_values:
+    SCENIC_E_ODO_KM: 96408
+  response: '76306620207017898'
+- expected_values:
+    SCENIC_E_ODO_KM: 96795
+  response: 76306620207017A1B
+- expected_values:
+    SCENIC_E_ODO_KM: 96796
+  response: 76306620207017A1C

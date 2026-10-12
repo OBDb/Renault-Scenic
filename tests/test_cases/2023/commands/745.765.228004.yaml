@@ -1,0 +1,5 @@
+command_id: 745.765.228004
+test_cases:
+- expected_values:
+    SCENIC_LOCKED: 0
+  response: '7650462800400'

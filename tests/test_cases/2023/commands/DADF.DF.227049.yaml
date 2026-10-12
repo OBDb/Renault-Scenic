@@ -1,0 +1,14 @@
+command_id: DADF.DF.227049
+test_cases:
+- expected_values:
+    SCENIC_INV_HV_A_RAW: 0
+  response: 18DAF1DF0762704900000000
+- expected_values:
+    SCENIC_INV_HV_A_RAW: -9136
+  response: 18DAF1DF07627049FFFFDC50
+- expected_values:
+    SCENIC_INV_HV_A_RAW: -2053
+  response: 18DAF1DF07627049FFFFF7FB
+- expected_values:
+    SCENIC_INV_HV_A_RAW: -256
+  response: 18DAF1DF07627049FFFFFF00

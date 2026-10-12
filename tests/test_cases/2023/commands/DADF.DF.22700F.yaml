@@ -1,0 +1,14 @@
+command_id: DADF.DF.22700F
+test_cases:
+- expected_values:
+    SCENIC_STATOR_T1_RAW: 8289
+  response: 18DAF1DF0762700F00002061
+- expected_values:
+    SCENIC_STATOR_T1_RAW: 24833
+  response: 18DAF1DF0762700F00006101
+- expected_values:
+    SCENIC_STATOR_T1_RAW: 30196
+  response: 18DAF1DF0762700F000075F4
+- expected_values:
+    SCENIC_STATOR_T1_RAW: 32833
+  response: 18DAF1DF0762700F00008041

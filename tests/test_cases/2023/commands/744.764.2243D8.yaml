@@ -1,0 +1,11 @@
+command_id: 744.764.2243D8
+test_cases:
+- expected_values:
+    SCENIC_COMP_RPM: 0
+  response: 764056243D80000
+- expected_values:
+    SCENIC_COMP_RPM: 1533
+  response: 764056243D805FD
+- expected_values:
+    SCENIC_COMP_RPM: 3085
+  response: 764056243D80C0D

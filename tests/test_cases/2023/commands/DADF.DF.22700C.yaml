@@ -1,0 +1,14 @@
+command_id: DADF.DF.22700C
+test_cases:
+- expected_values:
+    SCENIC_INV_T_RAW: 10560
+  response: 18DAF1DF0762700C00002940
+- expected_values:
+    SCENIC_INV_T_RAW: 18177
+  response: 18DAF1DF0762700C00004701
+- expected_values:
+    SCENIC_INV_T_RAW: 26098
+  response: 18DAF1DF0762700C000065F2
+- expected_values:
+    SCENIC_INV_T_RAW: 31803
+  response: 18DAF1DF0762700C00007C3B

@@ -1,0 +1,8 @@
+command_id: 742.220104|din=C0
+test_cases:
+- expected_values:
+    SCENIC_STEER_WHL_ANG_742: 0
+  response: 762056201047FFF
+- expected_values:
+    SCENIC_STEER_WHL_ANG_742: 12
+  response: '762056201048077'

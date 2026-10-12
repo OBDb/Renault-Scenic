@@ -1,0 +1,14 @@
+command_id: DADB.DB.229018
+test_cases:
+- expected_values:
+    SCENIC_CHG_P_MAX: 33.94
+  response: 18DAF1DB056290180D42
+- expected_values:
+    SCENIC_CHG_P_MAX: 79.33
+  response: 18DAF1DB056290181EFD
+- expected_values:
+    SCENIC_CHG_P_MAX: 82.04
+  response: 18DAF1DB05629018200C
+- expected_values:
+    SCENIC_CHG_P_MAX: 119.69
+  response: 18DAF1DB056290182EC1

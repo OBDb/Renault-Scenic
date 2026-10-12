@@ -1,0 +1,8 @@
+command_id: 742.220101|din=C0
+test_cases:
+- expected_values:
+    SCENIC_STEER_WHL_SPD_CALC: -0.7
+  response: 762056201017FF8
+- expected_values:
+    SCENIC_STEER_WHL_SPD_CALC: 0
+  response: 762056201017FFF

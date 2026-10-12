@@ -1,0 +1,17 @@
+command_id: 744.764.224009
+test_cases:
+- expected_values:
+    SCENIC_CABIN_T: 20.6
+  response: 76405624009025E
+- expected_values:
+    SCENIC_CABIN_T: 20.7
+  response: 76405624009025F
+- expected_values:
+    SCENIC_CABIN_T: 20.8
+  response: '764056240090260'
+- expected_values:
+    SCENIC_CABIN_T: 20.9
+  response: '764056240090261'
+- expected_values:
+    SCENIC_CABIN_T: 21
+  response: '764056240090262'

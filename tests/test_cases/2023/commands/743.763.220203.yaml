@@ -1,0 +1,5 @@
+command_id: 743.763.220203
+test_cases:
+- expected_values:
+    SCENIC_E_OIL_CHANGE_RANGE_CURRENT_KM: 0
+  response: '763056202030000'

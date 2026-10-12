@@ -1,0 +1,5 @@
+command_id: 744.764.2243A4
+test_cases:
+- expected_values:
+    SCENIC_HEAT_T_RAW: 0
+  response: 764046243A400

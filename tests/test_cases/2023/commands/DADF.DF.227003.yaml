@@ -1,0 +1,11 @@
+command_id: DADF.DF.227003
+test_cases:
+- expected_values:
+    SCENIC_ROTOR_A1: 0
+  response: 18DAF1DF056270030000
+- expected_values:
+    SCENIC_ROTOR_A1: 9.24414
+  response: 18DAF1DF0562700324FA
+- expected_values:
+    SCENIC_ROTOR_A1: 11.68457
+  response: 18DAF1DF056270032EBD

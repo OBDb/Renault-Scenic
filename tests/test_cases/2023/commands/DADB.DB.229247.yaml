@@ -1,0 +1,11 @@
+command_id: DADB.DB.229247
+test_cases:
+- expected_values:
+    SCENIC_E_REGEN: 48.227
+  response: 18DAF1DB076292470000BC63
+- expected_values:
+    SCENIC_E_REGEN: 48.591
+  response: 18DAF1DB076292470000BDCF
+- expected_values:
+    SCENIC_E_REGEN: 62.211
+  response: 18DAF1DB076292470000F303

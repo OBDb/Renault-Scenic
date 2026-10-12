@@ -1,0 +1,5 @@
+command_id: 743.763.22020C
+test_cases:
+- expected_values:
+    SCENIC_E_MAINTENANCE_AUTONOMY_INTERVAL_DAYS: 28970
+  response: 7630562020C712A
