@@ -4,5 +4,5 @@ test_cases:
     SCENIC_CELL_HIGHEST_V: 13
   response: 18DAF1DB046290080C
 - expected_values:
-    SCENIC_CELL_HIGHEST_V: 90
-  response: 18DAF1DB0462900859
+    SCENIC_CELL_HIGHEST_V: 96
+  response: 18DAF1DB046290085F
