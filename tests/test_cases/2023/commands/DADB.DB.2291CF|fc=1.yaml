@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     SCENIC_TRACTION_BAT_TOT: 759.8125
   response: 18DAF1DB076291CF80005EFA
+- expected_values:
+    SCENIC_TRACTION_BAT_TOT: 827.15625
+  response: 18DAF1DB076291CF80006765
