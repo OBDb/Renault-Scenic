@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     SCENIC_HV_V: 383.8
   response: 18DAF1DB056290050EFE
+- expected_values:
+    SCENIC_HV_V: 385
+  response: 18DAF1DB056290050F0A
