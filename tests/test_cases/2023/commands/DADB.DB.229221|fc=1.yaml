@@ -1,0 +1,5 @@
+command_id: DADB.DB.229221|fc=1
+test_cases:
+- expected_values:
+    SCENIC_BUSBAR_V_NO_1: 0
+  response: 18DAF1DB056292210000

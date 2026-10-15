@@ -1,0 +1,11 @@
+command_id: DADB.DB.229009|fc=1
+test_cases:
+- expected_values:
+    SCENIC_LOWEST_CELL_V_LEVEL: 3.6543
+  response: 18DAF1DB056290090E9E
+- expected_values:
+    SCENIC_LOWEST_CELL_V_LEVEL: 3.98926
+  response: 18DAF1DB056290090FF5
+- expected_values:
+    SCENIC_LOWEST_CELL_V_LEVEL: 4.00098
+  response: 18DAF1DB056290091001

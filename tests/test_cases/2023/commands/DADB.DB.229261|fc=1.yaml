@@ -1,0 +1,8 @@
+command_id: DADB.DB.229261|fc=1
+test_cases:
+- expected_values:
+    SCENIC_ABS_TIME_SINCE_FIRST: 791386
+  response: 18DAF1DB066292610C135A
+- expected_values:
+    SCENIC_ABS_TIME_SINCE_FIRST: 791439
+  response: 18DAF1DB066292610C138F

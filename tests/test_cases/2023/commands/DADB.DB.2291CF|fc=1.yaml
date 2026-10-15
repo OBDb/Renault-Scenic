@@ -1,0 +1,5 @@
+command_id: DADB.DB.2291CF|fc=1
+test_cases:
+- expected_values:
+    SCENIC_TRACTION_BAT_TOT: 759.8125
+  response: 18DAF1DB076291CF80005EFA

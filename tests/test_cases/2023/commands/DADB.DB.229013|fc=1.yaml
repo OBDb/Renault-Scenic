@@ -1,0 +1,26 @@
+command_id: DADB.DB.229013|fc=1
+test_cases:
+- expected_values:
+    SCENIC_TRACTION_BAT_MIN_T: 16
+  response: 18DAF1DB056290130380
+- expected_values:
+    SCENIC_TRACTION_BAT_MIN_T: 16.3125
+  response: 18DAF1DB056290130385
+- expected_values:
+    SCENIC_TRACTION_BAT_MIN_T: 16.375
+  response: 18DAF1DB056290130386
+- expected_values:
+    SCENIC_TRACTION_BAT_MIN_T: 16.4375
+  response: 18DAF1DB056290130387
+- expected_values:
+    SCENIC_TRACTION_BAT_MIN_T: 16.5625
+  response: 18DAF1DB056290130389
+- expected_values:
+    SCENIC_TRACTION_BAT_MIN_T: 17.4375
+  response: 18DAF1DB056290130397
+- expected_values:
+    SCENIC_TRACTION_BAT_MIN_T: 17.6875
+  response: 18DAF1DB05629013039B
+- expected_values:
+    SCENIC_TRACTION_BAT_MIN_T: 18.4375
+  response: 18DAF1DB0562901303A7

@@ -1,0 +1,10 @@
+command_id: 745.765.226310|fc=1
+test_cases:
+- expected_values:
+    SCENIC_TT_FL: null
+    SCENIC_TT_FR: null
+    SCENIC_TT_RL: null
+    SCENIC_TT_RR: null
+  response: |-
+    76510096263107F7F7F
+    765217F7F7FAAAAAAAA

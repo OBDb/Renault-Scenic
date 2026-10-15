@@ -1,0 +1,5 @@
+command_id: DADB.DB.22F1A0|fc=1
+test_cases:
+- expected_values:
+    SCENIC_FAULT_FINDING: 6
+  response: 18DAF1DB0462F1A006

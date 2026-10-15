@@ -1,0 +1,17 @@
+command_id: DADB.DB.229006|fc=1
+test_cases:
+- expected_values:
+    SCENIC_AVG_V_CELLS: 5.52022
+  response: 18DAF1DB076290060005DD80
+- expected_values:
+    SCENIC_AVG_V_CELLS: 5.625
+  response: 18DAF1DB076290060005FA00
+- expected_values:
+    SCENIC_AVG_V_CELLS: 5.64154
+  response: 18DAF1DB076290060005FE80
+- expected_values:
+    SCENIC_AVG_V_CELLS: 5.64706
+  response: 18DAF1DB0762900600060000
+- expected_values:
+    SCENIC_AVG_V_CELLS: 5.67601
+  response: 18DAF1DB07629006000607E0

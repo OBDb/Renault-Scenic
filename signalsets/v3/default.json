@@ -377,7 +377,7 @@
   "signals": [
     {"id": "SCENIC_RR_DOOR", "path": "Doors", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Rear right door open"}
   ]},
-{ "hdr": "745", "rax": "765", "fcm1": true, "dbg": true, "cmd": {"22": "6300"}, "freq": 60,
+{ "hdr": "745", "rax": "765", "fcm1": true, "cmd": {"22": "6300"}, "freq": 60, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "SCENIC_TP_FL", "path": "Tires", "fmt": {           "len": 16, "max": 767.25, "mul": 3, "div": 4, "nullmax": 767.25, "unit": "kilopascal" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"},
     {"id": "SCENIC_TP_FR", "path": "Tires", "fmt": {"bix": 16, "len": 16, "max": 767.25, "mul": 3, "div": 4, "nullmax": 767.25, "unit": "kilopascal" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
@@ -396,7 +396,7 @@
   "signals": [
     {"id": "SCENIC_TP_RR_STATUS", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Rear right tire pressure record, raw"}
   ]},
-{ "hdr": "745", "rax": "765", "fcm1": true, "dbg": true, "cmd": {"22": "6310"}, "freq": 60,
+{ "hdr": "745", "rax": "765", "fcm1": true, "cmd": {"22": "6310"}, "freq": 60, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "SCENIC_TT_FL", "path": "Tires", "fmt": {           "len": 8, "max": 97, "min": -30, "add": -30, "nullmax": 97, "unit": "celsius" }, "name": "Front left tire temperature",  "suggestedMetric": "frontLeftTireTemperature"},
     {"id": "SCENIC_TT_FR", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 97, "min": -30, "add": -30, "nullmax": 97, "unit": "celsius" }, "name": "Front right tire temperature", "suggestedMetric": "frontRightTireTemperature"},
@@ -715,27 +715,27 @@
   "signals": [
     {"id": "SCENIC_HV_V", "path": "Battery", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "volts" }, "name": "High voltage battery voltage", "suggestedMetric": "tractionBatteryVoltage"}
   ]},
-{ "hdr": "DADB", "rax": "DB", "fcm1": true, "dbg": true, "cmd": {"22": "9006"}, "freq": 1,
+{ "hdr": "DADB", "rax": "DB", "fcm1": true, "cmd": {"22": "9006"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "SCENIC_AVG_V_CELLS", "path": "Battery", "fmt": { "len": 32, "max": 30840, "min": -30840, "div": 69632, "sign": true, "unit": "volts" }, "name": "Average voltage of cells"}
   ]},
-{ "hdr": "DADB", "rax": "DB", "fcm1": true, "dbg": true, "cmd": {"22": "9007"}, "freq": 1,
+{ "hdr": "DADB", "rax": "DB", "fcm1": true, "cmd": {"22": "9007"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "SCENIC_HIGHEST_CELL_V_LEVEL", "path": "Battery", "fmt": { "len": 16, "max": 63.99, "mul": 0.000976563, "unit": "volts" }, "name": "Highest cell voltage level"}
   ]},
-{ "hdr": "DADB", "rax": "DB", "fcm1": true, "dbg": true, "cmd": {"22": "9008"}, "freq": 1,
+{ "hdr": "DADB", "rax": "DB", "fcm1": true, "cmd": {"22": "9008"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "SCENIC_CELL_HIGHEST_V", "path": "Battery", "fmt": { "len": 8, "max": 256, "add": 1, "unit": "scalar" }, "name": "Cell with the highest voltage"}
   ]},
-{ "hdr": "DADB", "rax": "DB", "fcm1": true, "dbg": true, "cmd": {"22": "9009"}, "freq": 1,
+{ "hdr": "DADB", "rax": "DB", "fcm1": true, "cmd": {"22": "9009"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "SCENIC_LOWEST_CELL_V_LEVEL", "path": "Battery", "fmt": { "len": 16, "max": 63.99, "mul": 0.000976563, "unit": "volts" }, "name": "Lowest cell voltage level"}
   ]},
-{ "hdr": "DADB", "rax": "DB", "fcm1": true, "dbg": true, "cmd": {"22": "900A"}, "freq": 1,
+{ "hdr": "DADB", "rax": "DB", "fcm1": true, "cmd": {"22": "900A"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "SCENIC_CELL_LOWEST_V", "path": "Battery", "fmt": { "len": 8, "max": 256, "add": 1, "unit": "scalar" }, "name": "Cell with the lowest voltage"}
   ]},
-{ "hdr": "DADB", "rax": "DB", "fcm1": true, "dbg": true, "cmd": {"22": "9011"}, "freq": 1,
+{ "hdr": "DADB", "rax": "DB", "fcm1": true, "cmd": {"22": "9011"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "SCENIC_COMPUTER_POWER_SUP", "path": "Engine", "fmt": { "len": 16, "max": 63.99, "mul": 0.000976563, "unit": "volts" }, "name": "Computer power supply"}
   ]},
@@ -743,11 +743,11 @@
   "signals": [
     {"id": "SCENIC_HV_T", "path": "Battery", "fmt": { "len": 16, "max": 4055.9375, "min": -40, "div": 16, "add": -40, "unit": "celsius" }, "name": "High voltage battery average temperature"}
   ]},
-{ "hdr": "DADB", "rax": "DB", "fcm1": true, "dbg": true, "cmd": {"22": "9013"}, "freq": 5,
+{ "hdr": "DADB", "rax": "DB", "fcm1": true, "cmd": {"22": "9013"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "SCENIC_TRACTION_BAT_MIN_T", "path": "Battery", "fmt": { "len": 16, "max": 4055, "min": -40, "div": 16, "add": -40, "unit": "celsius" }, "name": "Traction battery min. temperature"}
   ]},
-{ "hdr": "DADB", "rax": "DB", "fcm1": true, "dbg": true, "cmd": {"22": "9014"}, "freq": 5,
+{ "hdr": "DADB", "rax": "DB", "fcm1": true, "cmd": {"22": "9014"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "SCENIC_TRACTION_BAT_MAX_T", "path": "Battery", "fmt": { "len": 16, "max": 4055, "min": -40, "div": 16, "add": -40, "unit": "celsius" }, "name": "Traction battery max temperature"}
   ]},
@@ -1199,11 +1199,11 @@
   "signals": [
     {"id": "SCENIC_MOTOR_DRIVEN_FAN", "path": "Engine", "fmt": { "len": 8, "max": 127, "div": 2, "unit": "percent" }, "name": "Motor-driven fan unit request"}
   ]},
-{ "hdr": "DADB", "rax": "DB", "fcm1": true, "dbg": true, "cmd": {"22": "91CD"}, "freq": 5,
+{ "hdr": "DADB", "rax": "DB", "fcm1": true, "cmd": {"22": "91CD"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "SCENIC_TRACTION_BAT_INPUT_T", "path": "Battery", "fmt": { "len": 16, "max": 4055, "min": -40, "div": 16, "add": -40, "unit": "celsius" }, "name": "Traction battery input water temperature"}
   ]},
-{ "hdr": "DADB", "rax": "DB", "fcm1": true, "dbg": true, "cmd": {"22": "91CF"}, "freq": 1,
+{ "hdr": "DADB", "rax": "DB", "fcm1": true, "cmd": {"22": "91CF"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "SCENIC_TRACTION_BAT_TOT", "path": "Battery", "fmt": { "len": 32, "max": 134217727, "div": 32, "add": 67108864, "sign": true, "unit": "kilometers" }, "name": "Traction battery total mileage"}
   ]},
@@ -1215,11 +1215,11 @@
   "signals": [
     {"id": "SCENIC_FAN_SPD_DADB", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Fan speed"}
   ]},
-{ "hdr": "DADB", "rax": "DB", "fcm1": true, "dbg": true, "cmd": {"22": "91F6"}, "freq": 1,
+{ "hdr": "DADB", "rax": "DB", "fcm1": true, "cmd": {"22": "91F6"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "SCENIC_TRACTION_BAT_SERVICE", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Traction battery service plug interlock"}
   ]},
-{ "hdr": "DADB", "rax": "DB", "fcm1": true, "dbg": true, "cmd": {"22": "91F7"}, "freq": 1,
+{ "hdr": "DADB", "rax": "DB", "fcm1": true, "cmd": {"22": "91F7"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "SCENIC_TRACTION_BAT_INTERLOCK", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Traction battery interlock"}
   ]},
@@ -1227,46 +1227,46 @@
   "signals": [
     {"id": "SCENIC_CYCLES", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Complete charge cycles"}
   ]},
-{ "hdr": "DADB", "rax": "DB", "fcm1": true, "dbg": true, "cmd": {"22": "9216"}, "freq": 1,
+{ "hdr": "DADB", "rax": "DB", "fcm1": true, "cmd": {"22": "9216"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "SCENIC_TRACTION_BAT",             "path": "Battery", "fmt": {          "len": 1, "max": 1, "unit": "scalar" }, "name": "Traction battery overheating"},
     {"id": "SCENIC_CELLS_OVERVOLTAGE",        "path": "Battery", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "scalar" }, "name": "Cell overvoltage"},
     {"id": "SCENIC_TRACTION_BAT_OVERCURRENT", "path": "Battery", "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "scalar" }, "name": "Traction battery overcurrent"},
     {"id": "SCENIC_CELLS_UNDERVOLTAGE",       "path": "Battery", "fmt": {"bix": 3, "len": 1, "max": 1, "unit": "scalar" }, "name": "Cells undervoltage"}
   ]},
-{ "hdr": "DADB", "rax": "DB", "fcm1": true, "dbg": true, "cmd": {"22": "9221"}, "freq": 1,
+{ "hdr": "DADB", "rax": "DB", "fcm1": true, "cmd": {"22": "9221"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "SCENIC_BUSBAR_V_NO_1", "path": "Battery", "fmt": { "len": 16, "max": 31.99, "min": -32, "mul": 0.000976563, "sign": true, "unit": "volts" }, "name": "Busbar voltage no. 1"}
   ]},
-{ "hdr": "DADB", "rax": "DB", "fcm1": true, "dbg": true, "cmd": {"22": "9222"}, "freq": 1,
+{ "hdr": "DADB", "rax": "DB", "fcm1": true, "cmd": {"22": "9222"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "SCENIC_BUSBAR_V_NO_2", "path": "Battery", "fmt": { "len": 16, "max": 31.99, "min": -32, "mul": 0.000976563, "sign": true, "unit": "volts" }, "name": "Busbar voltage no. 2"}
   ]},
-{ "hdr": "DADB", "rax": "DB", "fcm1": true, "dbg": true, "cmd": {"22": "9223"}, "freq": 1,
+{ "hdr": "DADB", "rax": "DB", "fcm1": true, "cmd": {"22": "9223"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "SCENIC_BUSBAR_V_NO_3", "path": "Battery", "fmt": { "len": 16, "max": 31.99, "min": -32, "mul": 0.000976563, "sign": true, "unit": "volts" }, "name": "Busbar voltage no. 3"}
   ]},
-{ "hdr": "DADB", "rax": "DB", "fcm1": true, "dbg": true, "cmd": {"22": "9224"}, "freq": 1,
+{ "hdr": "DADB", "rax": "DB", "fcm1": true, "cmd": {"22": "9224"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "SCENIC_BUSBAR_V_NO_4", "path": "Battery", "fmt": { "len": 16, "max": 31.99, "min": -32, "mul": 0.000976563, "sign": true, "unit": "volts" }, "name": "Busbar voltage no. 4"}
   ]},
-{ "hdr": "DADB", "rax": "DB", "fcm1": true, "dbg": true, "cmd": {"22": "9225"}, "freq": 1,
+{ "hdr": "DADB", "rax": "DB", "fcm1": true, "cmd": {"22": "9225"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "SCENIC_BUSBAR_V_NO_5", "path": "Battery", "fmt": { "len": 16, "max": 31.99, "min": -32, "mul": 0.000976563, "sign": true, "unit": "volts" }, "name": "Busbar voltage no. 5"}
   ]},
-{ "hdr": "DADB", "rax": "DB", "fcm1": true, "dbg": true, "cmd": {"22": "9226"}, "freq": 1,
+{ "hdr": "DADB", "rax": "DB", "fcm1": true, "cmd": {"22": "9226"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "SCENIC_BUSBAR_V_NO_6", "path": "Battery", "fmt": { "len": 16, "max": 31.99, "min": -32, "mul": 0.000976563, "sign": true, "unit": "volts" }, "name": "Busbar voltage no. 6"}
   ]},
-{ "hdr": "DADB", "rax": "DB", "fcm1": true, "dbg": true, "cmd": {"22": "9227"}, "freq": 1,
+{ "hdr": "DADB", "rax": "DB", "fcm1": true, "cmd": {"22": "9227"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "SCENIC_BUSBAR_V_NO_7", "path": "Battery", "fmt": { "len": 16, "max": 31.99, "min": -32, "mul": 0.000976563, "sign": true, "unit": "volts" }, "name": "Busbar voltage no. 7"}
   ]},
-{ "hdr": "DADB", "rax": "DB", "fcm1": true, "dbg": true, "cmd": {"22": "9228"}, "freq": 1,
+{ "hdr": "DADB", "rax": "DB", "fcm1": true, "cmd": {"22": "9228"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "SCENIC_BUSBAR_V_NO_8", "path": "Battery", "fmt": { "len": 16, "max": 31.99, "min": -32, "mul": 0.000976563, "sign": true, "unit": "volts" }, "name": "Busbar voltage no. 8"}
   ]},
-{ "hdr": "DADB", "rax": "DB", "fcm1": true, "dbg": true, "cmd": {"22": "9242"}, "freq": 5,
+{ "hdr": "DADB", "rax": "DB", "fcm1": true, "cmd": {"22": "9242"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "SCENIC_MODULE_MIN_T", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Module with, minimum temperature"}
   ]},
@@ -1286,15 +1286,15 @@
   "signals": [
     {"id": "SCENIC_FAN_UNIT_FEED", "path": "Engine", "fmt": { "len": 8, "max": 1020, "mul": 4, "unit": "hertz" }, "name": "Fan unit feed"}
   ]},
-{ "hdr": "DADB", "rax": "DB", "fcm1": true, "dbg": true, "cmd": {"22": "9261"}, "freq": 30,
+{ "hdr": "DADB", "rax": "DB", "fcm1": true, "cmd": {"22": "9261"}, "freq": 30, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "SCENIC_ABS_TIME_SINCE_FIRST", "path": "Engine", "fmt": { "len": 24, "max": 16777215, "unit": "minutes" }, "name": "Absolute time since first ignition"}
   ]},
-{ "hdr": "DADB", "rax": "DB", "fcm1": true, "dbg": true, "cmd": {"22": "9284"}, "freq": 1,
+{ "hdr": "DADB", "rax": "DB", "fcm1": true, "cmd": {"22": "9284"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "SCENIC_TRACTION_BAT_CURRENT", "path": "Battery", "fmt": { "len": 32, "max": 2147483, "min": -2147483, "mul": -1, "div": 1000, "sign": true, "unit": "amps" }, "name": "Traction battery, current"}
   ]},
-{ "hdr": "DADB", "rax": "DB", "fcm1": true, "dbg": true, "cmd": {"22": "F1A0"}, "freq": 1,
+{ "hdr": "DADB", "rax": "DB", "fcm1": true, "cmd": {"22": "F1A0"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "SCENIC_FAULT_FINDING", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Fault finding version"}
   ]},

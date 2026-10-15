@@ -1,0 +1,11 @@
+command_id: 745.765.226300|fc=1
+test_cases:
+- expected_values:
+    SCENIC_TP_FL: null
+    SCENIC_TP_FR: null
+    SCENIC_TP_RL: null
+    SCENIC_TP_RR: null
+  response: |-
+    765100F62630003FF03
+    76521FF03FF03FF03FF
+    7652203FFAAAAAAAAAA

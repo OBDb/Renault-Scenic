@@ -1,0 +1,8 @@
+command_id: DADB.DB.2291CD|fc=1
+test_cases:
+- expected_values:
+    SCENIC_TRACTION_BAT_INPUT_T: 19
+  response: 18DAF1DB056291CD03B0
+- expected_values:
+    SCENIC_TRACTION_BAT_INPUT_T: 22.6875
+  response: 18DAF1DB056291CD03EB
