@@ -1,6 +1,9 @@
 command_id: DADB.DB.229003
 test_cases:
 - expected_values:
+    SCENIC_SOH: 99.62
+  response: 18DAF1DB0562900326EA
+- expected_values:
     SCENIC_SOH: 99.63
   response: 18DAF1DB0562900326EB
 - expected_values:
