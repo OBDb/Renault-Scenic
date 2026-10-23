@@ -174,7 +174,7 @@
   "signals": [
     {"id": "SCENIC_STEER_WHL_ANG_742", "path": "Control", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "add": -3276.7, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
-{ "hdr": "743", "cmd": {"22": "0207"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2024], "from": 2026 },
+{ "hdr": "743", "cmd": {"22": "0207"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "SCENIC_E_ODO_KM", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer"}
   ]},
