@@ -4,11 +4,11 @@ test_cases:
     SCENIC_SOC: 68.69
   response: 18DAF1DB056290021AD5
 - expected_values:
-    SCENIC_SOC: 69.19
-  response: 18DAF1DB056290021B07
+    SCENIC_SOC: 81.91
+  response: 18DAF1DB056290021FFF
 - expected_values:
-    SCENIC_SOC: 94.71
-  response: 18DAF1DB0562900224FF
+    SCENIC_SOC: 89.6
+  response: 18DAF1DB056290022300
 - expected_values:
     SCENIC_SOC: 94.86
   response: 18DAF1DB05629002250E
