@@ -15,10 +15,10 @@ test_cases:
     18DAF1DB056290050EDA
     18DAF1DB056290050EDA
 - expected_values:
-    SCENIC_HV_V: 384
-  response: 18DAF1DB056290050F00
-- expected_values:
     SCENIC_HV_V: 398.4
   response: |-
     18DAF1DB056290050F90
     18DAF1DB056290050F90
+- expected_values:
+    SCENIC_HV_V: 819.1
+  response: 18DAF1DB056290051FFF
