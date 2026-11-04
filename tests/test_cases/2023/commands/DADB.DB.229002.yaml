@@ -1,8 +1,8 @@
 command_id: DADB.DB.229002
 test_cases:
 - expected_values:
-    SCENIC_SOC: 35.31
-  response: 18DAF1DB056290020DCB
+    SCENIC_SOC: 19.66
+  response: 18DAF1DB0562900207AE
 - expected_values:
     SCENIC_SOC: 35.83
   response: 18DAF1DB056290020DFF
@@ -12,6 +12,11 @@ test_cases:
 - expected_values:
     SCENIC_SOC: 97.36
   response: 18DAF1DB056290022608
+- expected_values:
+    SCENIC_SOC: 19.72
+  response: |-
+    18DAF1DB056290050D67
+    18DAF1DB0562900207B4
 - expected_values:
     SCENIC_SOC: 64.74
   response: |-
