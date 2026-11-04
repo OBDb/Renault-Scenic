@@ -1,6 +1,11 @@
 command_id: DADB.DB.229005
 test_cases:
 - expected_values:
+    SCENIC_HV_V: 368.4
+  response: |-
+    18DAF1DB056290021727
+    18DAF1DB056290050E64
+- expected_values:
     SCENIC_HV_V: 336
   response: 18DAF1DB056290050D20
 - expected_values:
